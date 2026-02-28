@@ -1,0 +1,41 @@
+1. ¿Qué es Git?
+
+Git es una herramienta que sirve para administrar versiones de archivos, principalmente en proyectos de programación. Permite registrar cada modificación que se realiza, saber quién la hizo y en qué momento, lo que facilita el trabajo cuando varias personas participan en el mismo proyecto.
+
+-¿Para qué se utiliza?
+
+-Para llevar un control de las modificaciones del código.
+-Para permitir que varias personas trabajen de forma conjunta en un mismo proyecto y luego combinar sus aportes.
+-Para analizar y revisar los cambios realizados por los integrantes del equipo.
+
+
+
+2. Comandos más importantes de Git y su función
+
+    - git init	                           Inicia un repositorio nuevo.
+    - git log	                           Muestra historial de commits.
+    - git status	                   Muestra el estado de los archivos.
+    - git add "nombre del archivo"	   Agrega archivos al repositorio.
+    - git commit -m "mensaje"	           Guarda cambios con un mensaje.
+    - git push	                           Envía cambios al repositorio.
+    - git pull	                           Descarga los cambios más recientes del repositorio.
+    - git branch	                   Crea ramas.
+    - git checkout <rama>	           Poder cambiar entre ramas.
+
+
+
+3. Diferencia entre Git y GitHub
+
+La diferencia entre Git y GitHub es que Git es un programa que se instala en la computadora y se encarga de controlar y registrar los cambios que se hacen en los archivos de un proyecto, mientras que GitHub es una plataforma en línea que permite almacenar esos proyectos en la nube, compartirlos con otras personas y facilitar el trabajo en equipo. En pocas palabras, Git gestiona las versiones y GitHub sirve para alojar y colaborar en los proyectos.
+
+
+4. Comandos para subir cambios a un repositorio
+
+    - git add      Prepara o guarda los archivos
+    - git commit   Guarda los archivos en la carpeta
+    - git push     Los sube al repositorio de GitHub
+
+
+5. ¿Qué es una branch?
+
+Una branch (rama) es una línea de trabajo independiente dentro de un proyecto en Git. Permite desarrollar nuevas funciones, realizar pruebas o corregir errores sin alterar el código principal. Cada rama mantiene su propio registro de cambios y ofrece un entorno seguro para trabajar de manera organizada. Cuando las modificaciones están completas y verificadas, se pueden integrar nuevamente al proyecto principal sin afectar su estabilidad.
